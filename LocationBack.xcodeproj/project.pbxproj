@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E3BF971717AF6A00340405 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BF961717AF6A00340405 /* UIKit.framework */; };
+		D0E3BF991717AF6A00340405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BF981717AF6A00340405 /* Foundation.framework */; };
+		D0E3BF9B1717AF6A00340405 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BF9A1717AF6A00340405 /* CoreGraphics.framework */; };
+		D0E3BFA11717AF6A00340405 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E3BF9F1717AF6A00340405 /* InfoPlist.strings */; };
+		D0E3BFA31717AF6A00340405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3BFA21717AF6A00340405 /* main.m */; };
+		D0E3BFA71717AF6A00340405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3BFA61717AF6A00340405 /* AppDelegate.m */; };
+		D0E3BFA91717AF6A00340405 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3BFA81717AF6A00340405 /* Default.png */; };
+		D0E3BFAB1717AF6A00340405 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3BFAA1717AF6A00340405 /* Default@2x.png */; };
+		D0E3BFAD1717AF6A00340405 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3BFAC1717AF6A00340405 /* Default-568h@2x.png */; };
+		D0E3BFB01717AF6A00340405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3BFAF1717AF6A00340405 /* ViewController.m */; };
+		D0E3BFB31717AF6A00340405 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E3BFB11717AF6A00340405 /* ViewController.xib */; };
+		D0E3BFE41717B14E00340405 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BFE31717B14E00340405 /* QuartzCore.framework */; };
+		D0E3BFE81717B16C00340405 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BFE71717B16C00340405 /* ImageIO.framework */; };
+		D0E3BFEA1717B17C00340405 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BFE91717B17C00340405 /* MapKit.framework */; };
+		D0E3BFEC1717B18A00340405 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BFEB1717B18A00340405 /* CoreLocation.framework */; };
+		D0E3BFEE1717B1AF00340405 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E3BFED1717B1AF00340405 /* SenTestingKit.framework */; };
+		D0E3BFF21717B68200340405 /* nav_menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3BFF11717B68200340405 /* nav_menu_icon@2x.png */; };
+		D0E3C0451717FF4B00340405 /* MeunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0241717FF4A00340405 /* MeunViewController.m */; };
+		D0E3C0461717FF4B00340405 /* MeunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E3C0251717FF4A00340405 /* MeunViewController.xib */; };
+		D0E3C04E1717FF4B00340405 /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0341717FF4A00340405 /* mapViewController.m */; };
+		D0E3C04F1717FF4B00340405 /* mapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E3C0351717FF4A00340405 /* mapViewController.xib */; };
+		D0E3C0501717FF4B00340405 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0381717FF4B00340405 /* DDMenuController.m */; };
+		D0E3C0511717FF4B00340405 /* ShakingAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C03A1717FF4B00340405 /* ShakingAlertView.m */; };
+		D0E3C0641717FF9A00340405 /* CustomAnnotion.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0541717FF9A00340405 /* CustomAnnotion.m */; };
+		D0E3C0651717FF9A00340405 /* CustomAnnotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0561717FF9A00340405 /* CustomAnnotionView.m */; };
+		D0E3C0661717FF9A00340405 /* grayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0581717FF9A00340405 /* grayView.m */; };
+		D0E3C0671717FF9A00340405 /* JingDianMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C05A1717FF9A00340405 /* JingDianMapCell.m */; };
+		D0E3C0681717FF9A00340405 /* JingDianMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E3C05B1717FF9A00340405 /* JingDianMapCell.xib */; };
+		D0E3C0691717FF9A00340405 /* MKMapView+MyMapViewTouchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C05D1717FF9A00340405 /* MKMapView+MyMapViewTouchEvent.m */; };
+		D0E3C06A1717FF9A00340405 /* MuddDetail.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0E3C05E1717FF9A00340405 /* MuddDetail.jpeg */; };
+		D0E3C06B1717FF9A00340405 /* SetPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0601717FF9A00340405 /* SetPointViewController.m */; };
+		D0E3C06C1717FF9A00340405 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3C0621717FF9A00340405 /* OneViewController.m */; };
+		D0E3C06D1717FF9A00340405 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E3C0631717FF9A00340405 /* pin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0E3BF931717AF6A00340405 /* LocationBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E3BF961717AF6A00340405 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0E3BF981717AF6A00340405 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0E3BF9A1717AF6A00340405 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0E3BF9E1717AF6A00340405 /* LocationBack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationBack-Info.plist"; sourceTree = "<group>"; };
+		D0E3BFA01717AF6A00340405 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0E3BFA21717AF6A00340405 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E3BFA41717AF6A00340405 /* LocationBack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocationBack-Prefix.pch"; sourceTree = "<group>"; };
+		D0E3BFA51717AF6A00340405 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0E3BFA61717AF6A00340405 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0E3BFA81717AF6A00340405 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0E3BFAA1717AF6A00340405 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0E3BFAC1717AF6A00340405 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0E3BFAE1717AF6A00340405 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0E3BFAF1717AF6A00340405 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0E3BFB21717AF6A00340405 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D0E3BFE31717B14E00340405 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D0E3BFE51717B15D00340405 /* libacmobileshim.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libacmobileshim.dylib; path = usr/lib/libacmobileshim.dylib; sourceTree = SDKROOT; };
+		D0E3BFE71717B16C00340405 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D0E3BFE91717B17C00340405 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D0E3BFEB1717B18A00340405 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D0E3BFED1717B1AF00340405 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0E3BFF11717B68200340405 /* nav_menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_menu_icon@2x.png"; sourceTree = "<group>"; };
+		D0E3C0231717FF4A00340405 /* MeunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeunViewController.h; sourceTree = "<group>"; };
+		D0E3C0241717FF4A00340405 /* MeunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeunViewController.m; sourceTree = "<group>"; };
+		D0E3C0251717FF4A00340405 /* MeunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeunViewController.xib; sourceTree = "<group>"; };
+		D0E3C0331717FF4A00340405 /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		D0E3C0341717FF4A00340405 /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
+		D0E3C0351717FF4A00340405 /* mapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mapViewController.xib; sourceTree = "<group>"; };
+		D0E3C0371717FF4B00340405 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
+		D0E3C0381717FF4B00340405 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+		D0E3C0391717FF4B00340405 /* ShakingAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakingAlertView.h; sourceTree = "<group>"; };
+		D0E3C03A1717FF4B00340405 /* ShakingAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakingAlertView.m; sourceTree = "<group>"; };
+		D0E3C0531717FF9A00340405 /* CustomAnnotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotion.h; sourceTree = "<group>"; };
+		D0E3C0541717FF9A00340405 /* CustomAnnotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotion.m; sourceTree = "<group>"; };
+		D0E3C0551717FF9A00340405 /* CustomAnnotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotionView.h; sourceTree = "<group>"; };
+		D0E3C0561717FF9A00340405 /* CustomAnnotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotionView.m; sourceTree = "<group>"; };
+		D0E3C0571717FF9A00340405 /* grayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grayView.h; sourceTree = "<group>"; };
+		D0E3C0581717FF9A00340405 /* grayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grayView.m; sourceTree = "<group>"; };
+		D0E3C0591717FF9A00340405 /* JingDianMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingDianMapCell.h; sourceTree = "<group>"; };
+		D0E3C05A1717FF9A00340405 /* JingDianMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingDianMapCell.m; sourceTree = "<group>"; };
+		D0E3C05B1717FF9A00340405 /* JingDianMapCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingDianMapCell.xib; sourceTree = "<group>"; };
+		D0E3C05C1717FF9A00340405 /* MKMapView+MyMapViewTouchEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+MyMapViewTouchEvent.h"; sourceTree = "<group>"; };
+		D0E3C05D1717FF9A00340405 /* MKMapView+MyMapViewTouchEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+MyMapViewTouchEvent.m"; sourceTree = "<group>"; };
+		D0E3C05E1717FF9A00340405 /* MuddDetail.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MuddDetail.jpeg; sourceTree = "<group>"; };
+		D0E3C05F1717FF9A00340405 /* SetPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPointViewController.h; sourceTree = "<group>"; };
+		D0E3C0601717FF9A00340405 /* SetPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPointViewController.m; sourceTree = "<group>"; };
+		D0E3C0611717FF9A00340405 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		D0E3C0621717FF9A00340405 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		D0E3C0631717FF9A00340405 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E3BF901717AF6A00340405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E3BFEE1717B1AF00340405 /* SenTestingKit.framework in Frameworks */,
+				D0E3BF971717AF6A00340405 /* UIKit.framework in Frameworks */,
+				D0E3BFEC1717B18A00340405 /* CoreLocation.framework in Frameworks */,
+				D0E3BFEA1717B17C00340405 /* MapKit.framework in Frameworks */,
+				D0E3BFE81717B16C00340405 /* ImageIO.framework in Frameworks */,
+				D0E3BFE41717B14E00340405 /* QuartzCore.framework in Frameworks */,
+				D0E3BF991717AF6A00340405 /* Foundation.framework in Frameworks */,
+				D0E3BF9B1717AF6A00340405 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E3BF8A1717AF6A00340405 = {
+			isa = PBXGroup;
+			children = (
+				D0E3BF9C1717AF6A00340405 /* LocationBack */,
+				D0E3BF951717AF6A00340405 /* Frameworks */,
+				D0E3BF941717AF6A00340405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E3BF941717AF6A00340405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3BF931717AF6A00340405 /* LocationBack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E3BF951717AF6A00340405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3BFED1717B1AF00340405 /* SenTestingKit.framework */,
+				D0E3BFEB1717B18A00340405 /* CoreLocation.framework */,
+				D0E3BFE91717B17C00340405 /* MapKit.framework */,
+				D0E3BFE71717B16C00340405 /* ImageIO.framework */,
+				D0E3BFE51717B15D00340405 /* libacmobileshim.dylib */,
+				D0E3BFE31717B14E00340405 /* QuartzCore.framework */,
+				D0E3BF961717AF6A00340405 /* UIKit.framework */,
+				D0E3BF981717AF6A00340405 /* Foundation.framework */,
+				D0E3BF9A1717AF6A00340405 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E3BF9C1717AF6A00340405 /* LocationBack */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3C0521717FF9A00340405 /* addpoint */,
+				D0E3C00F1717FF4A00340405 /* showallpoint */,
+				D0E3BFEF1717B68200340405 /* resource */,
+				D0E3BFA51717AF6A00340405 /* AppDelegate.h */,
+				D0E3BFA61717AF6A00340405 /* AppDelegate.m */,
+				D0E3BFAE1717AF6A00340405 /* ViewController.h */,
+				D0E3BFAF1717AF6A00340405 /* ViewController.m */,
+				D0E3BFB11717AF6A00340405 /* ViewController.xib */,
+				D0E3BF9D1717AF6A00340405 /* Supporting Files */,
+			);
+			path = LocationBack;
+			sourceTree = "<group>";
+		};
+		D0E3BF9D1717AF6A00340405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3BF9E1717AF6A00340405 /* LocationBack-Info.plist */,
+				D0E3BF9F1717AF6A00340405 /* InfoPlist.strings */,
+				D0E3BFA21717AF6A00340405 /* main.m */,
+				D0E3BFA41717AF6A00340405 /* LocationBack-Prefix.pch */,
+				D0E3BFA81717AF6A00340405 /* Default.png */,
+				D0E3BFAA1717AF6A00340405 /* Default@2x.png */,
+				D0E3BFAC1717AF6A00340405 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E3BFEF1717B68200340405 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3BFF01717B68200340405 /* image */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		D0E3BFF01717B68200340405 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3BFF11717B68200340405 /* nav_menu_icon@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D0E3C00F1717FF4A00340405 /* showallpoint */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3C0221717FF4A00340405 /* leftmenu */,
+				D0E3C0261717FF4A00340405 /* mapview */,
+				D0E3C0331717FF4A00340405 /* mapViewController.h */,
+				D0E3C0341717FF4A00340405 /* mapViewController.m */,
+				D0E3C0351717FF4A00340405 /* mapViewController.xib */,
+				D0E3C0361717FF4B00340405 /* menu */,
+				D0E3C0391717FF4B00340405 /* ShakingAlertView.h */,
+				D0E3C03A1717FF4B00340405 /* ShakingAlertView.m */,
+			);
+			path = showallpoint;
+			sourceTree = "<group>";
+		};
+		D0E3C0221717FF4A00340405 /* leftmenu */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3C0231717FF4A00340405 /* MeunViewController.h */,
+				D0E3C0241717FF4A00340405 /* MeunViewController.m */,
+				D0E3C0251717FF4A00340405 /* MeunViewController.xib */,
+			);
+			path = leftmenu;
+			sourceTree = "<group>";
+		};
+		D0E3C0261717FF4A00340405 /* mapview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mapview;
+			sourceTree = "<group>";
+		};
+		D0E3C0361717FF4B00340405 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3C0371717FF4B00340405 /* DDMenuController.h */,
+				D0E3C0381717FF4B00340405 /* DDMenuController.m */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		D0E3C0521717FF9A00340405 /* addpoint */ = {
+			isa = PBXGroup;
+			children = (
+				D0E3C0531717FF9A00340405 /* CustomAnnotion.h */,
+				D0E3C0541717FF9A00340405 /* CustomAnnotion.m */,
+				D0E3C0551717FF9A00340405 /* CustomAnnotionView.h */,
+				D0E3C0561717FF9A00340405 /* CustomAnnotionView.m */,
+				D0E3C0571717FF9A00340405 /* grayView.h */,
+				D0E3C0581717FF9A00340405 /* grayView.m */,
+				D0E3C0591717FF9A00340405 /* JingDianMapCell.h */,
+				D0E3C05A1717FF9A00340405 /* JingDianMapCell.m */,
+				D0E3C05B1717FF9A00340405 /* JingDianMapCell.xib */,
+				D0E3C05C1717FF9A00340405 /* MKMapView+MyMapViewTouchEvent.h */,
+				D0E3C05D1717FF9A00340405 /* MKMapView+MyMapViewTouchEvent.m */,
+				D0E3C05E1717FF9A00340405 /* MuddDetail.jpeg */,
+				D0E3C05F1717FF9A00340405 /* SetPointViewController.h */,
+				D0E3C0601717FF9A00340405 /* SetPointViewController.m */,
+				D0E3C0611717FF9A00340405 /* OneViewController.h */,
+				D0E3C0621717FF9A00340405 /* OneViewController.m */,
+				D0E3C0631717FF9A00340405 /* pin.png */,
+			);
+			path = addpoint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E3BF921717AF6A00340405 /* LocationBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E3BFB61717AF6A00340405 /* Build configuration list for PBXNativeTarget "LocationBack" */;
+			buildPhases = (
+				D0E3BF8F1717AF6A00340405 /* Sources */,
+				D0E3BF901717AF6A00340405 /* Frameworks */,
+				D0E3BF911717AF6A00340405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationBack;
+			productName = LocationBack;
+			productReference = D0E3BF931717AF6A00340405 /* LocationBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E3BF8B1717AF6A00340405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = wangwb;
+			};
+			buildConfigurationList = D0E3BF8E1717AF6A00340405 /* Build configuration list for PBXProject "LocationBack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0E3BF8A1717AF6A00340405;
+			productRefGroup = D0E3BF941717AF6A00340405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E3BF921717AF6A00340405 /* LocationBack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E3BF911717AF6A00340405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E3BFA11717AF6A00340405 /* InfoPlist.strings in Resources */,
+				D0E3BFA91717AF6A00340405 /* Default.png in Resources */,
+				D0E3BFAB1717AF6A00340405 /* Default@2x.png in Resources */,
+				D0E3BFAD1717AF6A00340405 /* Default-568h@2x.png in Resources */,
+				D0E3BFB31717AF6A00340405 /* ViewController.xib in Resources */,
+				D0E3BFF21717B68200340405 /* nav_menu_icon@2x.png in Resources */,
+				D0E3C0461717FF4B00340405 /* MeunViewController.xib in Resources */,
+				D0E3C04F1717FF4B00340405 /* mapViewController.xib in Resources */,
+				D0E3C0681717FF9A00340405 /* JingDianMapCell.xib in Resources */,
+				D0E3C06A1717FF9A00340405 /* MuddDetail.jpeg in Resources */,
+				D0E3C06D1717FF9A00340405 /* pin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E3BF8F1717AF6A00340405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E3BFA31717AF6A00340405 /* main.m in Sources */,
+				D0E3BFA71717AF6A00340405 /* AppDelegate.m in Sources */,
+				D0E3BFB01717AF6A00340405 /* ViewController.m in Sources */,
+				D0E3C0451717FF4B00340405 /* MeunViewController.m in Sources */,
+				D0E3C04E1717FF4B00340405 /* mapViewController.m in Sources */,
+				D0E3C0501717FF4B00340405 /* DDMenuController.m in Sources */,
+				D0E3C0511717FF4B00340405 /* ShakingAlertView.m in Sources */,
+				D0E3C0641717FF9A00340405 /* CustomAnnotion.m in Sources */,
+				D0E3C0651717FF9A00340405 /* CustomAnnotionView.m in Sources */,
+				D0E3C0661717FF9A00340405 /* grayView.m in Sources */,
+				D0E3C0671717FF9A00340405 /* JingDianMapCell.m in Sources */,
+				D0E3C0691717FF9A00340405 /* MKMapView+MyMapViewTouchEvent.m in Sources */,
+				D0E3C06B1717FF9A00340405 /* SetPointViewController.m in Sources */,
+				D0E3C06C1717FF9A00340405 /* OneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0E3BF9F1717AF6A00340405 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E3BFA01717AF6A00340405 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0E3BFB11717AF6A00340405 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E3BFB21717AF6A00340405 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E3BFB41717AF6A00340405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0E3BFB51717AF6A00340405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E3BFB71717AF6A00340405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationBack/LocationBack-Prefix.pch";
+				INFOPLIST_FILE = "LocationBack/LocationBack-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0E3BFB81717AF6A00340405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationBack/LocationBack-Prefix.pch";
+				INFOPLIST_FILE = "LocationBack/LocationBack-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E3BF8E1717AF6A00340405 /* Build configuration list for PBXProject "LocationBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E3BFB41717AF6A00340405 /* Debug */,
+				D0E3BFB51717AF6A00340405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E3BFB61717AF6A00340405 /* Build configuration list for PBXNativeTarget "LocationBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E3BFB71717AF6A00340405 /* Debug */,
+				D0E3BFB81717AF6A00340405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E3BF8B1717AF6A00340405 /* Project object */;
+}
